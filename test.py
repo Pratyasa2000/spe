@@ -1,4 +1,4 @@
-!/usr/bin/python3
+#! /usr/bin/python3
 # test case fro adding two numbers
 import unittest
 
@@ -9,9 +9,9 @@ class testsum(unittest.TestCase):
         """
         test case to add two numbers
         """
-        data=[23,32]
-        result=summation(data)
-        self.assertEqual(result,55)
+        data = [23, 32]
+        result = summation(data)
+        self.assertEqual(result, 55)
 
-if __name__=='__main__':
+if __name__ == '__main__':
     unittest.main()
